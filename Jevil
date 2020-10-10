@@ -1,17 +1,32 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
+			
+			Jevil: {
+		num: 0,
+		name: "Jevil",
+		types: [Psychic],
+		genderRatio: {M: 1.00, F: 0.00},
+		baseStats: {hp: 3000, atk: 150, def: 50, 250spa: , spd: 50, spe: 105},
+		abilities: {0: "Overgrow", H: "Chlorophyll"},
+		heightm: 0.7,
+		weightkg: 6.9,
+		color: "Blue",
+		evos: ["None"],
+		eggGroups: ["Monster", "Psychic"], 
+				
+ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
 		types: ["Grass", "Poison"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
-		abilities: {0: "Overgrow", H: "Chlorophyll"},
-		heightm: 0.7,
-		weightkg: 6.9,
-		color: "Green",
-		evos: ["Ivysaur"],
-		eggGroups: ["Monster", "Grass"],
-	},
+		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45}, 
+		abilities: {0: "Overgrow", H: "Chlorophyll" 
+		heightm: 0.771, 
+		weightkg:6.9, 
+		color: "Green", 
+		evos: ["Ivysaur"]
+	   eggGroups: ["Monster", "Grass"], 
+		
 	ivysaur: {
 		num: 2,
 		name: "Ivysaur",
